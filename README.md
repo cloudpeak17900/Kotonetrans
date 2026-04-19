@@ -26,6 +26,10 @@ run.bat启动
 | 处理耗时 | ≈5分钟 |
 | API成本 | <¥0.01 (DeepSeek) |
 
+<img width="1920" height="1080" alt="aeced7b8a0a8e2702c41de95ed17ff7d" src="https://github.com/user-attachments/assets/e6a87bae-b91c-41d3-9edf-21803c10680a" />
+
+
+
 
 ### 快速开始
 
@@ -62,15 +66,5 @@ run.bat
 - FFmpeg（音频处理）
 - 5GB+ 磁盘空间（模型文件）
 
-### 项目结构
 
-```
-Kotonetrans/
-├── models/              # 模型文件目录（首次运行自动下载）
-│   ├── asr/            # ASR模型
-│   └── translate/      # 翻译模型
-├── download_models.py  # 模型下载脚本
-├── main.py            # 主程序
-└── run.bat            # 启动脚本
-```
 
