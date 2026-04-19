@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 模型文件 - 忽略所有模型目录内容，但保留目录结构
+models/asr/*
+models/translate/*
+!models/.gitkeep
+!models/asr/.gitkeep
+!models/translate/.gitkeep
+
+# 配置和临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 测试音频
+*.mp3
+*.wav
+*.flac
+!test_assets/*.mp3
+!test_assets/*.wav
+
+# 用户数据
+*.bak
+*.cache
